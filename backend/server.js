@@ -12,4 +12,4 @@ app.use(bodyParser.json());
 app.use("/api/contact", contactRoutes);
 
 const PORT = 5000;
-app.listen(PORT, () => console.log(🚀 Backend running on port ${PORT}));
+app.listen(PORT, () => console.log(`Backend running on port ${PORT}`));
